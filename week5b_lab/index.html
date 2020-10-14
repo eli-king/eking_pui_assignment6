@@ -4,7 +4,7 @@
 		<title>ToDo App</title>
 		<meta charset="UTF-8">
 		<!-- styles -->
-		<link rel="stylesheet" type="text/css" href="../week5a_lab/style.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
 		<!-- fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
 		<!-- javascript -->
@@ -14,22 +14,24 @@
 		<header>
 			<h1>My ToDo Lists</h1>
 			<nav>
-				<a href="../week5a_lab/index.html">main</a> -
-				<a href="../week5a_lab/settings.html">settings</a>
+				<a href="index.html">main</a> -
+				<a href="settings.html">settings</a>
 			</nav>
 		</header>
 
 		<div id="todo-lists">
 			<div class="list">
-				<a href="../week5a_lab/list.html">Groceries</a>
+				<a href="list.html">Groceries</a>
+			</div>
+			
+			<div class="list">Workout<button class="delete-item" onclick="deleteListItem(this.parentNode)">X</button>
+			</div>
+
+			<div class="list">Homework<button class="delete-item" onclick="deleteListItem(this.parentNode)">X</button>
 			</div>
 
 			<div class="list">
-				Homework
-			</div>
-
-			<div class="list">
-				Random Errands
+				Random Errands<button class="delete-item" onclick="deleteListItem(this.parentNode)">X</button>
 			</div>
 			<button onclick="addNewList()">Add New List</button>
 		</div>
