@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Header */
+header {
+	margin: auto;
+    background-color: white;
+	margin-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+	box-shadow: 0px 0px 30px 0px #999999;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	width: 1000px;
+}
+
+#homeLink{
+	font-size: 1.2em;
+	padding-left: 30px;
+	color: black;
+	text-decoration: none;
+	font-weight: 900;
+
+}
+.navLinkGroup{
+	display: inline;
+	margin-left: 620px;
+	text-align: center;
+}
+
+.navLink{
+	margin-left: 30px;
+	font-size: .9em;
+	color: black;
+	text-decoration: none;
+	font-weight: 900;
+}
+
+#navIcon{
+	margin-left: 30px;
+}
+
+/* Home Text */
+
+h2{
+	text-align: center;
+	font-size: 4em;
+    font-family: 'PT Serif', serif;
+	color: white;
+	padding-top: 15%;
+	font-weight: 200;
+}
+
+h6{
+	text-align: center;
+	font-size: 1.3em;
+    font-family: 'PT Serif', serif;
+	color: white;
+	font-weight: 100;
+}
+
+#shopNowLink{
+	text-align: center;
+	font-size: 1.3em;
+    font-family: 'PT Serif', serif;
+	color: white;
+	font-weight: 100;
+}
+
+/* Breadcrumb */
+
+h5{
+	margin: auto;
+    font-family: 'Josefin Sans', sans-serif;
+	padding-top: 15px;
+	padding-left: 20%;
+	font-weight: 100;
+	color: dimgrey;
+}
+
+/* Title */
+
+h1{
+	text-align: center;
+	font-size: 3em;
+    font-family: 'PT Serif', serif;
+	color: black;
+	font-weight: 100;
+}
+
+
+/* Shop Image and Desc */
+
+h4{
+	text-align: center;
+	font-size: 1em;
+    font-family: 'PT Serif', serif;
+	color: black;
+	font-weight: 100;
+	width: 300px;
+}
+
+
+/* Map */
+
+.map{
+	margin: auto;
+	width: 960px;
+}
+
+#callNow{
+	font-size: 1.2em;
+    font-family: 'Josefin Sans', sans-serif;
+	color: black;
+	font-weight: 100;
+}
+
+.row{
+	margin: auto;
+    background-color: white;
+	margin-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	width: 1000px;
+}
+
+.column{
+	display: inline-block;
+	width: 300px;
+}
+
+.column img{
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+}
