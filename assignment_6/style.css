@@ -134,3 +134,108 @@ h4{
 	height: 300px;
 	width: 300px;
 }
+
+
+.cartItem{
+	margin: auto;
+	width: 1000px;
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+
+.productItem{
+	margin: auto;
+	width: 1000px;
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+
+.cartItem img{
+	width: 300px;
+	float: left;
+}
+
+.cartOptions{
+	padding-left: 100px;
+	width: 400px;
+	float: left;
+}
+
+.cartOptions span:first-child{
+	font-size: 1.3em;
+    font-family: 'PT Serif', serif;
+	color: black;
+	font-weight: 100;
+	display:block;
+	padding-bottom: 20px;
+
+}
+
+.productOptions{
+	padding-left: 100px;
+	width: 400px;
+	float: left;
+}
+
+.productOptions span:first-child{
+	font-size: 1.3em;
+    font-family: 'PT Serif', serif;
+	color: black;
+	font-weight: 100;
+	display:block;
+	padding-bottom: 20px;
+
+}
+
+select{
+	width: 200px;
+	border: black;
+	background-color: white;
+	font-size: 1em;
+    font-family: 'PT Serif', serif;
+	color: black;
+	font-weight: 100;
+	display:block;
+	padding-bottom: 20px;
+}
+
+option{
+	font-size: 1em;
+    font-family: 'PT Serif', serif;
+	color: black;
+	font-weight: 100;
+	display:block;
+	padding-bottom: 20px;	
+}
+
+.dropdownDesc{
+    font-family: 'Josefin Sans', sans-serif;
+	font-weight: 100;
+	color: dimgrey;
+}
+
+
+.cartTotal{
+	padding-left: 1110px;
+}
+
+.cartTotal span{
+	display: block;
+}
+
+#addToCart{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 100;
+	font-size: 1em;
+	color: white;
+	border: none;
+	background-color: black;
+}
+
+.productDesc{
+	margin: auto;
+    font-family: 'Josefin Sans', sans-serif;
+	font-weight: 100;
+	color: dimgrey;
+	display: block;
+}
