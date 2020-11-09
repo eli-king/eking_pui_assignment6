@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif">
 </head>
 
-<body>
+<body onLoad = "productDetailPage()"> 
 	<!-- Navigation Bar  -->
 	<header>
 		<nav>
@@ -34,14 +34,14 @@
 	</div>
 	<!-- Page Title  -->
 	<div>
-		<h1>_____ Tube Pillow Set _____</h1>
+		<h1 id = "storeName">STORE NAME</h1>
 	</div>
 	
 	<!-- Product Detail -->
 	<div class = "productItem">
-		<img id = "productImg" src = "knotknot3.jpeg" alt = "knot pillow" width = "400px">
+		<img id = "productImg" src = "knotknot.jpg" alt = "pillow" width = "400px">
 		<div class = "productOptions">
-			<span>Joe Colombo Tube Chair</span>
+			<span id = "prodName">PRODUCT NAME</span>
 			<!-- Color Dropdown -->
 			<span class = "dropdownDesc">Color: </span>
 			<span class = "dropdownDesc" id = "colorDesc">Select Color</span>
@@ -75,7 +75,7 @@
 				</select>
 			</form>
 			<div>
-				<h3 id = "price">$4200</h3>
+				<h3 id = "price">$0</h3>
 				<button onclick="addToCart()" id = "addToCart">Add to Cart</button>
 			</div>
 		</div>

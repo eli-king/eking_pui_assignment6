@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fluff Stuff - Cart</title>
+	<!-- javascript -->
+	<script src="script.js"></script>
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif">
+</head>
+
+<body onload="updateCart()">
+	<!-- Navigation Bar  -->
+	<header>
+		<nav>
+			<a href="index.html" id="homeLink">F/S</a>
+			<div class="navLinkGroup">
+				<a href="shop.html" class="navLink">Shop</a>
+				<a href="locations.html" class="navLink">Locations</a>
+				<a href="about.html" class="navLink">About</a>
+				<a href="cart.html" id = "navIcon"><img src="cart.png" alt="cart" width="15"></a>
+				<a id = "cartQuant"> </a>
+
+			</div>
+		</nav>
+	</header>
+	<!-- Breadcrumbs  -->
+	<div>
+		<h5>Fluff Stuff / <u>Your Cart</u></h5>
+	</div>
+	<!-- Page Title  -->
+	<div>
+		<h1>_____ Your Cart _____</h1>
+	</div>
+	
+	<!-- Cart Item -->
+	<div class = "cartItem">
+		<img src = "tubeblack.jpg" alt = "knot pillow">
+		<div class = "cartOptions">
+			<span>Item Name</span>
+			<p class = "dropdownDesc" id = "colorDesc">Color</p>
+			<p class = "dropdownDesc" id = "materialDesc">Material</p>
+			<p class = "dropdownDesc" id = "quantDesc">Quantity</p>
+		</div>
+		<div class = "cartPrice">
+			<span id = "price">$</span>
+		</div>
+	</div>
+	
+	<div class = "cartTotal">
+		<span>Tax</span>
+		<span>Total</span>
+	</div>
+</body>
+</html>

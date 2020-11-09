@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif">
 </head>
 
-<body onload="updateCart()">
+<body onload="displayCart()">
 	<!-- Navigation Bar  -->
 	<header>
 		<nav>
@@ -38,21 +38,16 @@
 	
 	<!-- Cart Item -->
 	<div class = "cartItem">
-		<img src = "tubeblack.jpg" alt = "knot pillow">
 		<div class = "cartOptions">
-			<span>Item Name</span>
-			<p class = "dropdownDesc" id = "colorDesc">Color</p>
-			<p class = "dropdownDesc" id = "materialDesc">Material</p>
-			<p class = "dropdownDesc" id = "quantDesc">Quantity</p>
+			<span id = "cartName"></span>
 		</div>
 		<div class = "cartPrice">
-			<span id = "price">$</span>
 		</div>
 	</div>
 	
 	<div class = "cartTotal">
-		<span>Tax</span>
-		<span>Total</span>
+		<span id = "taxNum">Tax</span>
+		<span id = "totalNum"> </span>
 	</div>
 </body>
 </html>
