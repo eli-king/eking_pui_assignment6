@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fluff Stuff - Shop</title>
+	<!-- javascript -->
+	<script src="script.js"></script>
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif">
+</head>
+
+<body onLoad = "productDetailPage()"> 
+	<!-- Navigation Bar  -->
+	<header>
+		<nav>
+			<a href="index.html" id="homeLink">F/S</a>
+			<div class="navLinkGroup">
+				<a href="shop.html" class="navLink">Shop</a>
+				<a href="locations.html" class="navLink">Locations</a>
+				<a href="about.html" class="navLink">About</a>
+				<a href="cart.html" id = "navIcon"><img src="cart.png" alt="cart" width="15"></a>
+				<a id = "cartQuant">0</a>
+			</div>
+		</nav>
+	</header>
+	
+	<!-- Breadcrumbs  -->
+	<div>
+		<h5>Fluff Stuff / Shop / Winter 2020 / <u>Tube Pillow Set</u></h5>
+		<h5>Sort By: Featured / Price / Color / Room / <u>Collection</u> / View All</h5>
+	</div>
+	<!-- Page Title  -->
+	<div>
+		<h1 id = "storeName">STORE NAME</h1>
+	</div>
+	
+	<!-- Product Detail -->
+	<div class = "productItem">
+		<img id = "productImg" src = "knotknot.jpg" alt = "pillow" width = "400px">
+		<div class = "productOptions">
+			<span id = "prodName">PRODUCT NAME</span>
+			<!-- Color Dropdown -->
+			<span class = "dropdownDesc">Color: </span>
+			<span class = "dropdownDesc" id = "colorDesc">Select Color</span>
+			<form>
+				<select id = "colorOption" onchange = "changeColor()">
+					<option>After School Special</option>
+					<option>Morning Haze</option>
+					<option>Cozy Denim</option>
+					<option>Rainy Day</option>
+				</select>
+			</form>
+			<!-- Material Dropdown -->
+			<span class = "dropdownDesc">Material: </span>
+			<span class = "dropdownDesc" id = "materialDesc">Select Material</span>
+			<form>
+				<select id = "materialOption" onchange = "changeMaterial()">
+					<option>Duck Down</option>
+					<option>Poly-Blend</option>
+					<option>Memory Foam</option>
+				</select>
+			</form>
+			<!-- Quantity Dropdown -->
+			<span class = "dropdownDesc">Quantity: </span>
+			<span class = "dropdownDesc" id = "quantDesc">Select Quantity</span>
+			<form>
+				<select id = "quantOption" onchange = "changeQuant()">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+				</select>
+			</form>
+			<div>
+				<h3 id = "price">$0</h3>
+				<button onclick="addToCart()" id = "addToCart">Add to Cart</button>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>

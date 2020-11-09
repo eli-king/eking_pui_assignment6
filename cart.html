@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fluff Stuff - Cart</title>
+	<!-- javascript -->
+	<script src="script.js"></script>
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif">
+</head>
+
+<body onload="displayCart()">
+	<!-- Navigation Bar  -->
+	<header>
+		<nav>
+			<a href="index.html" id="homeLink">F/S</a>
+			<div class="navLinkGroup">
+				<a href="shop.html" class="navLink">Shop</a>
+				<a href="locations.html" class="navLink">Locations</a>
+				<a href="about.html" class="navLink">About</a>
+				<a href="cart.html" id = "navIcon"><img src="cart.png" alt="cart" width="15"></a>
+				<a id = "cartQuant"> </a>
+
+			</div>
+		</nav>
+	</header>
+	<!-- Breadcrumbs  -->
+	<div>
+		<h5>Fluff Stuff / <u>Your Cart</u></h5>
+	</div>
+	<!-- Page Title  -->
+	<div>
+		<h1>_____ Your Cart _____</h1>
+	</div>
+	
+	<!-- Cart Item -->
+	<div class = "cartItem">
+		<div class = "cartOptions">
+			<span id = "cartName"></span>
+		</div>
+		<div class = "cartPrice">
+		</div>
+	</div>
+	
+	<div class = "cartTotal">
+		<span id = "taxNum">Tax</span>
+		<span id = "totalNum"> </span>
+	</div>
+</body>
+</html>
